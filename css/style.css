@@ -1,0 +1,775 @@
+/*===================================================
+                common  Css
+===================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: ;
+}
+@font-face{
+    font-family: Roboto-Regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+    font-family: Roboto-Light;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face{
+    font-family: Roboto-Medium;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face{
+    font-family: ;
+    src: url('../fonts/.ttf');
+}
+
+/*===============================================
+           wrapper part
+==============================================*/
+
+.wrapper_full{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+/*===============================================
+           header part
+==============================================*/
+
+.header_full{
+    background-color: #19283f;
+}
+.header{
+    height: 500px;
+}
+
+/*===============================================
+                 top bar
+==============================================*/
+
+.top_bar{
+    font-size: 15px;
+    font-family: Roboto-Regular;
+    height: 80px;
+}
+
+/*------------logo-----------------*/
+
+.logo{
+    width: 90px;
+    height: 48px;
+    padding-top: 16px;
+    float: left;
+}
+/*----------------log in page----------------*/
+.login_page{
+    margin-top: 30px;
+    float: right;
+}
+.login_page a{
+    padding: 13px 40px;
+    color: #ffc501;
+    background-color: #ff3150;
+    border-radius: 20px;
+}
+
+/*----------------search box-------------------*/
+
+.search_box{
+    margin: 28px 20px 0 25px;
+    float: right;
+}
+
+/*-----------------menu--------------------*/
+
+.menu{
+    height: 80px;
+    width:470px;
+    float: right;
+}
+.menu ul{
+    border-right: 1px solid #00c6bf;
+}
+.menu ul li{
+    margin:30px 0;
+    padding: 0 20px;
+    list-style-type: none;
+    font-size: 15px;
+    float:left;
+}
+.menu ul li:last-child{
+    padding-right: 25px;
+    border-right: 1px solid #00c6bf;
+}
+.menu ul li a{
+    color: #8b9ca6;
+}
+.menu ul li a:hover{
+    color: #00c7c0;
+}
+
+/*===============================================
+             title part
+==============================================*/
+
+.title_part{
+    height: 420px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.title_part h1{
+    padding-top: 130px;
+    font-size: 51.16px;
+    font-family: Roboto-Light;
+    color: #f0f8fb;
+}
+.title_part p{
+    padding-bottom: px;
+    font-size: 15px;
+    font-family: Roboto-Regular;
+    color: #8999a4;
+}
+.title_part a{
+    padding: 15px 59px;
+    background-color: #ff3150;
+    font-size: 15px;
+    font-family: Roboto-Medium;
+    color: #ffc501;
+    border-radius: 25px;
+}
+
+/*===============================================
+             services part
+==============================================*/
+
+.service_full{
+    height: 725px;
+}
+
+/*-----------------service title------------------*/
+
+.service_full .title{
+    height: 307px;
+    text-align: center;
+}
+.service_full .title .composit{
+    margin-top: 58px;
+    margin-bottom: 50px;
+}
+.service_full .title h1{
+    font-family: Roboto-Regular;
+    font-size: 35px;
+    color: #1a2940;
+}
+.service_full .title p{
+    line-height: 40px;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: #a8b9c0;
+}
+
+/*------------------service item-----------------*/
+
+.service_full .services{
+    height: 420px;
+
+}
+.service_full .services .service{
+    height: 420px;
+    width: 370px;
+    margin-right: 30px;
+    text-align: center;
+    float: left;
+}
+.service_full .services .service:last-child{
+    margin-right: 0;
+}
+.service_full .services .service .image{
+    height: 200px;
+    width: 370px;
+    position: relative;
+}
+.service_full .services .service .image img{
+    position: absolute;
+    bottom:0;
+    left: 170px;
+}
+.one{
+    background: url('../img/one.png')center center no-repeat;
+}
+.two{
+    background: url('../img/two.png')center center no-repeat;
+}
+.three{
+    background: url('../img/three.png')center center no-repeat;
+}
+.service_full .services .service .text{
+    height: 220px;
+    width: 370px;
+}
+.service_full .services .service .text h3{
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    color: #ffc501;
+    padding: 36px 0;
+}
+.service_full .services .service .text p{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: #a8b9c0;
+    padding: 0 30px;
+}
+
+
+/*===============================================
+             portfolio part
+==============================================*/
+
+.portfolio_full{
+    height: 1000px;
+    background-color: #eff7fa;
+}
+
+
+/*---------------portfolio title-----------------*/
+
+.portfolio_full .title{
+    height: 245px;
+    text-align: center;
+}
+.portfolio_full .title .composit{
+    padding: 58px 0 48px 0;
+}
+.portfolio_full .title h1{
+    font-family: Roboto-Medium;
+    font-size: 35px;
+    color: #1a2940;
+    padding: ;
+}
+.portfolio_full .title p{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: #b4c2c8;
+    line-height: 20px;
+    padding: ;
+}
+/*---------------portfolio navigfation------------*/
+
+.portfolio_full .navigation{
+    height: 160px;
+    text-align: center;
+}
+.portfolio_full .navigation ul li{
+    margin: 0 8px;
+    line-height: 160px;
+    list-style-type: none;
+    display: inline;
+}
+.portfolio_full .navigation ul li a{
+    font-family: Roboto-Regular;
+    color: #b6c5cc;
+    font-size: 15px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+.portfolio_full .navigation ul li a:hover{
+    color: #ffc501;
+    background-color: #ff3150;
+}
+
+/*---------------portfolio works-----------------*/
+
+.portfolio_full .works{
+    font-family: Roboto-Regular;
+    height: 428px;
+}
+.portfolio_full .works .work{
+    width: 270px;
+    height: 428px;
+    margin-right: 30px;
+    float: left;
+}
+.portfolio_full .works .work:last-child{
+    margin-right: 0;
+}
+.portfolio_full .works .work .up{
+    width: 270px;
+    height: 200px;
+    background-color: #fff;
+}
+.portfolio_full .works .work .down{
+    width: 270px;
+    height: 200px;
+    margin-top: 28px;
+    background-color: #fff;
+}
+
+/*---------------portfolio button-----------------*/
+
+.portfolio_full .button{
+    height: 165px;
+    text-align: center;
+}
+.portfolio_full .button a{
+    line-height: 165px;
+    font-family: Roboto-Medium;
+    background-color: #ff3150;
+    color: #ffc501;
+    font-size: 15px;
+    padding: 16px 53px;
+    border-radius: 25px;
+}
+.portfolio_full .button a:hover{
+    font-weight: bold;
+}
+
+/*===============================================
+             abaout us part
+==============================================*/
+.aboutus_full{
+    height: 790px;
+    background-color: ;
+}
+
+/*--------------------------------------------
+            about us  title part
+---------------------------------------------*/
+.aboutus_full .title{
+    height: 380px;
+    text-align: center;
+}
+.aboutus_full .title .composit{
+    margin: 60px 0 50px 0;
+}
+.aboutus_full .title h1{
+    font-family: Roboto-Medium;
+    font-size: 35px;
+    color: #1a2940;
+}
+.aboutus_full .title h4{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: #a8b9c0;
+    line-height: 40px;
+}
+.aboutus_full .title p{
+    margin: 25px 300px 0 290px;
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: #b4c2c8;
+}
+
+
+
+/*--------------------------------------------
+             about us information part
+---------------------------------------------*/
+.aboutus_full .information{
+    height: 410px;
+}
+
+
+.aboutus_full .information .info{
+    height: 410px;
+    width: 400px;
+    float: left;
+}
+.aboutus_full .information .info h1{
+    font-family: Roboto-Medium;
+    font-size: 35px;
+    color: #1a2940;
+    padding: 85px 0 20px 0;
+}
+.aboutus_full .information .info p{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: #bfccd1;
+    padding-right: 15px ;
+}
+.aboutus_full .information .info a{
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    color: #ffc501;
+    padding: 16px 50px;
+    background-color: #ff3150;
+    border-radius: 25px;
+}
+.aboutus_full .information .image{
+    width: 770px;
+    height: 410px;
+    text-align: right;
+    float: left;
+}
+
+
+/*===============================================
+             meet team part
+==============================================*/
+.meet_team{
+    height: 712px;
+    background-color: #eff7fa;
+}
+
+/*-------------------title----------------------*/
+
+.meet_team .title{
+    height: 260px;
+    text-align: center;
+}
+.meet_team .title h1{
+    padding-top: 115px;
+    padding-bottom: 30px;
+    font-family: Roboto-Medium;
+    font-size: 35px;
+    color: #ffc501;
+}
+.meet_team .title p{
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: #a8b9c0;
+}
+
+.meet_team .teams{
+    height: 450px;
+}
+.meet_team .teams .team{
+    height: 390px;
+    width: 270px;
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+}
+.meet_team .teams .team:last-child{
+    margin-right: 0;
+}
+.meet_team .teams .team .image{
+    height: 220px;
+    width: 270px;
+}
+.meet_team .teams .team .text{
+    height: 170px;
+    width: 270px;
+}
+.meet_team .teams .team .text h3{
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    color: #fff;
+    background-color: #33d1cc;
+    text-align: center;
+    padding: 16px 0;
+}
+.meet_team .teams .team .text p{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: #a8b9c0;
+    text-align: center;
+    padding: 30px 30px 0 30px;
+}
+/*===============================================
+             client part
+==============================================*/
+.client_full{
+    height: 180px;
+}
+.client_full .clients{
+    text-align: center;
+}
+.client_full .clients a img{
+    margin: 55px 45px;
+}
+.client_full .clients a img:hover{
+    transform: scale(1.05);
+}
+
+/*===============================================
+             advertise part
+==============================================*/
+.advertise_full{
+    height: 390px;
+    background-color: #19283f;
+    text-align: center;
+}
+.advertise_full h1{
+    font-family: Roboto-Medium;
+    font-size: 35px;
+    color: #fff;
+    padding-top: 115px;
+}
+.advertise_full p{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: #a8b9c0;
+    margin: 15px 0 50px 0;
+}
+.advertise_full a{
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    color: #ffbb06;
+    background-color: #ff3150;
+    padding: 18px 50px;
+    border-radius: 25px;
+}
+.advertise_full a:hover{
+    font-weight: bold;
+}
+/*===============================================
+             blog part
+==============================================*/
+.blog_full{
+    height: 655px;
+}
+
+/*-------------------title------------*/
+
+.blog_full .title{
+    height: 300px;
+    text-align: center;
+}
+.blog_full .title .composit{
+    margin-top: 58px;
+    margin-bottom: 37px;
+}
+.blog_full .title h1{
+    font-family: Roboto-Medium;
+    color: #1a2940;
+    font-size: 35px;
+}
+.blog_full .title p{
+    font-family: Roboto-Regular;
+    color: #b9c7cd;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+
+/*---------------------blogs-----------------*/
+.blog_full .blogs{
+    
+}
+.blog_full .blogs .blog{
+    height: 195px;
+    width: 370px;
+    margin-right: 30px;
+    float: left;
+}
+.blog_full .blogs .blog:last-child{
+    margin-right: 0;
+}
+.blog_full .blogs .image{
+    height: 130px;
+    width: 370px;
+    background-color: #eff7fa;
+}
+.blog_full .blogs .text{
+    height: 65px;
+    width: 370px;
+    font-family: Roboto-Regular;
+}
+.blog_full .blogs .text p{
+    line-height: 40px;
+    font-size: 15px;
+    color: #b9c7cd;
+}
+.blog_full .blogs .text h3{
+    font-size: 20px;
+    color: #1a2940;
+}
+
+/*-------------------botton----------------*/
+.blog_full .button{
+    height: 160px;
+    text-align: center;
+}
+.blog_full .button a{
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    padding: 16px 55px;
+    line-height: 160px;
+    background-color: #ff3150;
+    color: #ffbb06;
+    border-radius: 25px;
+}
+.blog_full .button a:hover{
+    transform: scale(1.2);
+}
+
+
+/*===============================================
+             newsletter part
+==============================================*/
+
+.newsletter_full{
+    background-color: #ffc400;
+}
+.newsletter{
+    font-family: Roboto-Regular;
+    height: 90px;
+    line-height: 90px;
+}
+
+.newsletter p{
+    float: left;
+    font-size: 20px;
+    margin-left: 113px;
+    margin-right: 35px;
+    
+}
+.newsletter .subscription{
+    float: left;
+}
+.newsletter .subscription .email{
+    width: 444px;
+    height: 34px;
+    font-size: 15px;
+    border: 0;
+    border-bottom: 1px solid #eff7fa;
+    background-color: #ffc400;
+    color: #f0f8fb;
+}
+.newsletter .subscription .submit{
+    width: 200px;
+    font-size: 15px;
+    border: 0;
+    margin-left: 30px;
+    padding: 15px 69px;
+    border-radius: 25px;
+    background-color: #19283f;
+    color: #ffc501;
+    cursor: pointer;
+}
+.newsletter .subscription .submit:hover{
+    transform: scale(1.02);
+}
+
+/*===============================================
+             footer part
+==============================================*/
+
+.footer_full{
+    background-color: #19283f;
+}
+.footer{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    height: 355px;
+}
+.footer h4{
+    line-height: 30px;
+    color: #fff;
+}
+.footer p{
+    font-size: 13px;
+    line-height: 30px;
+    color: #a8b9c0;
+}
+
+/*--------------first column---------------*/
+
+.footer .first{
+    padding-top: 60px;
+    width:370px;
+    height:355px;
+    float: left;
+    box-sizing: border-box;
+}
+
+/*--------------second column---------------*/
+
+.footer .second{
+    padding-top: 60px;
+    padding-left: 30px;
+    width:200px;
+    height:355px;
+    float: left;
+    box-sizing: border-box;
+}
+.footer .second ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+.footer .second ul li a{
+    color: #a8b9c0;
+    font-size: 13px;
+}
+
+
+/*--------------Third column---------------*/
+
+.footer .third{
+    padding-top: 60px;
+    padding-left: 30px;
+    width:200px;
+    height:355px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer .third ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+.footer .third ul li a{
+    color: #a8b9c0;
+    font-size: 13px;
+}
+
+/*--------------fourth column---------------*/
+
+.footer .fourth{
+    padding-top: 60px;
+    width:400px;
+    height:355px;
+    float: left;
+    box-sizing: border-box;
+}
+.footer .fourth p{
+    margin-bottom: 50px;
+}
+.mailus{
+    width:400px;
+    padding: 16px 121px;
+    background-color: #ff3150;
+    color: #fff;
+    border-radius: 25px;
+}
+.mailus:hover{
+    color: #ffbb06;
+    padding: 17px 122px;
+}
+
+i{
+    width: 34px;
+    height: 24px;
+    font-size: 18px;
+    padding-top: 7px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin: 45px 10px 0 0;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+}
+
+
+.fa-facebook-f{
+    background-color: #347cd2;
+}
+.fa-twitter{
+    background-color: #1ec4ff;
+}
+.fa-google-plus-g{
+    background-color: #D94133;
+}
+.fa-globe{
+    background-color: #ff3298;
+}
